@@ -1,10 +1,11 @@
-variable "access"{}
-variable "private"{}
+#variable "access"{}
+# variable "private"{}
 
 provider "aws"{
     region="ap-south-1"
-    access_key = var.access
-    secret_key = var.private
+#     access_key = var.access
+#     secret_key = var.private
+    profile = "terra-jenkin"
 }
 
 resource "aws_instance" "app"{
