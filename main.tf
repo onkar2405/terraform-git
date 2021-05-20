@@ -1,5 +1,4 @@
-#variable "access"{}
-# variable "private"{}
+
 
 provider "aws"{
     region="ap-south-1"
