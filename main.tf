@@ -1,10 +1,8 @@
 
 ####
 provider "aws"{
-    region="ap-south-1"
-         access_key = "AKIASLCJQNK7LC7FGMFH"
-     secret_key = "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"
-#     profile = "default"
+    region="ap-south-1"  
+    profile = "default"
 }
 
 resource "aws_instance" "app"{
